@@ -1,25 +1,19 @@
-# addition
-print("2 + 3:", 2 + 3)
+# print('"hello" == "hello"', "hello" == "hello") # equality
+# print("3 != 3.0:", 3 != 3.0) # not equal
+# print("3 != 5:", 3 != 5) # not equal
+# print("4 < 9:", 4 < 9) # less than
+# print("6 > 13:", 6 > 13) # greater than
+# print("4 <= 4:", 4 <= 4) # less than or equal to
+# print("6 >= 3:", 6 >= 3) # greater than or equal to
 
-# subtraction
-print("6 - 2:", 6 - 2)
+# print("4 < 9 or 6 > 13:", 4 < 9 or 6 > 13)
 
-# multiplication
-print("23 * 56:", 23 * 56)
 
-# division
-print("4.834 / 2:", 4.834 / 2)
+daytime = input("What time is it now? ") 
 
-# floor division
-print("3.5 // 2:", 3.5 // 2)
-print("4 // 2:", 4 // 2)
-
-# square root
-print("square root of 49:", 49**0.5)
-
-# remainder
-print("Remainder of 5/2:", 5 % 2)
-
-x = 1
-ans = x**2 + x**3 + x**4
-print("polynomial:", ans)
+if daytime == "12PM":  # is it 12PM?
+    print("Get Lunch!!")
+elif daytime ==  "6AM":
+    print("Get Breakfast")
+else:
+    print("Focus! Study!")
